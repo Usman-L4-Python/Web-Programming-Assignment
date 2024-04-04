@@ -1,0 +1,120 @@
+nav ul { 
+  letter-spacing: 5px;
+  font-family: monospace;
+  font-size:28px;
+  list-style-type:none;
+  padding: right 10px;
+}
+
+nav a {
+  letter-spacing: 5px;
+   font-family: monospace;
+   font-size:28px;
+   text-decoration: none; 
+    padding-right: 10px;
+   }
+
+nav li { 
+  letter-spacing: 5px;
+  font-family: monospace;
+  font-size:28px;
+   display: inline;
+   }
+   
+body {
+    background-color: rgb(73, 105, 137);
+   margin-left: 40px;
+   margin-top: 20px;
+   margin-right: 40px;
+}
+h1 {
+  letter-spacing: 5px;
+  text-align:center;
+  font-size: 150px;
+  color:rgb(168, 205, 159);
+}
+
+h2 {
+  letter-spacing: 5px;
+  text-align:center;
+  font-size: 70px;
+  color:rgb(168, 205, 159);
+}
+
+p {
+  text-align:center;
+  font-family: monospace;
+  font-size:25px;
+  color:rgb(226, 244, 197);
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+#PI {
+  text-align:left;
+  font-size: 50px;
+  color:rgb(255, 251, 233);
+}
+
+#KI {
+  text-align:left;
+  font-size: 50px;
+  color:rgb(255, 251, 233);
+}
+
+#CAS {
+  text-align:left;
+  font-size: 50px;
+  color:rgb(255, 251, 233);
+}
+
+#CHA {
+  text-align:left;
+  font-size: 50px;
+  color:rgb(255, 251, 233);
+}
+
+#REV {
+  text-align:left;
+  font-size: 50px;
+  color:rgb(226, 244, 197);
+}
+
+a:link {
+ 
+  font-size-adjust: 10px;
+  color: rgb(88, 163, 153);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  
+  color: rgb(88, 163, 153);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: 10cm;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
