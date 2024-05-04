@@ -1,0 +1,91 @@
+
+    <!-- STARTING OUR CODE USING HTML-->
+    <!DOCTYPE html>
+    <head>
+       <title>Petrol Calculator</title>
+        </head>
+    <body>
+        <div class="container">
+            <h1>Petrol Calculator</h1>
+            <input type="number" id="petrolCost"  value="1.72" placeholder="Cost per liter" autofocus>
+            <input type="number" id="litersPurchased"  value="0" placeholder="Liters purchased">
+            <button id="calculateButton">Calculate</button>
+            <p id="totalCost"></p>
+        </div>
+        <!-- we use java script here to calculate cost-->
+<script>
+const petrolCostInput = document.getElementById('petrolCost');
+const litersPurchasedInput = document.getElementById('litersPurchased');
+const calculateButton = document.getElementById('calculateButton');
+const totalCostDisplay = document.getElementById('totalCost');
+// NOW WE USE FUNCTION TO CALCULATE TOTAL COST 
+function myFunction() { 
+    const petrolCost = petrolCostInput.value;
+    const litersPurchased = litersPurchasedInput.value;
+    const totalCost = petrolCost * litersPurchased;
+    totalCostDisplay.textContent = totalCostDisplay.textContent = "Total cost: AED" + totalCost.toFixed(2);
+}
+calculateButton.addEventListener('click', myFunction);
+</script>
+    <style>
+        body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 250px auto;
+    
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.input-container {
+    margin-bottom: 30px;
+}
+
+
+input[type="number"] {
+    width: 100%;
+    font-size: 20px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: #494848;
+    color: #fff;
+    font-size: 20px;
+    cursor:grab;
+    
+    
+}
+
+button:hover {
+    background-color: #67c37b;
+    letter-spacing: 5px;
+    
+}
+
+p#totalCost {
+    color:  #67c37b;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+ </style>
+</body>
+</html>
+
+
